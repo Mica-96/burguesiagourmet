@@ -1,0 +1,1190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+/*ESTILOS COMUNES*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+/*INICIO DE HEADER */
+header {
+    height: 150px;
+    background-color:#A62103;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 30px;
+    align-content: center;
+    padding-left: 150px;
+}
+
+.marca {
+    width: 220px;
+    font-family: "Cormorant Garamond", serif;
+    color: beige;
+    align-items: stretch;
+    height: 90px;
+    padding: 10px;
+}
+
+/*TAMAÑO DE IMAGENES*/
+.tamImg{
+    width: 119%;
+}
+
+/*Nav BOTONERA*/
+#botonera {
+    margin-left: 500px;
+    background-color: #A62103;
+    position: fixed;
+    border: 3px #fff solid;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#botonera ul, #redes ul, #caja4-ft ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#botonera ul li a{
+    display: block;
+    text-decoration: none;
+    color:aliceblue;
+    background-color:#141A26 ;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#botonera ul li a:hover{
+    background-color:#BF6B04;
+}
+
+/*Nav REDES*/
+#redes {
+    height: 60px ;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: 30%;
+}
+
+#redes ul{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.9); 
+    border-radius: 10px;
+}
+
+#redes ul a {
+    margin-left: 5px;
+}
+/*FIN DE HEADER */
+
+
+
+/*-----------Secciones------------*/
+
+
+/*----INICIO DE ESTILOS DE SECCION 1----*/
+#seccion1 {
+    height: 600px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
+#caja1{
+    width: 25%;
+    background-image: url(../img/BARRIO\ KING.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#caja1_seccion1 {
+    width: 50%;
+    background-image: url(../img/fondo.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #fff;
+}
+
+#caja2-1 h2{
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+#caja1_seccion1 p{
+    font-size:31px;
+    margin-left: 50px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+
+/* Caja que contiene el VIDEO*/
+#caja2-seccion1{
+    margin-left: 50px;
+}
+
+/* Estilo H3 */
+#caja1 h3, #caja3_seccion1 h3 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: #83A603;
+    padding: 10px;
+    width: 250px;
+    border: 5px solid #fff;
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-top: 40%;
+}
+
+#caja3_seccion1{
+    width: 25%;
+    background-image: url(../img/TRIPLE\ X.jpg);
+    background-position: 50%;
+}
+/*----FIN DE ESTILOS DE SECCION 1----*/
+
+
+
+/*----INICIO DE ESTILOS DE SECCION 2----*/
+#seccion2 {
+    height: 1800px;
+    background-color: #83A603;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Titulo*/
+
+#caja1_seccion2 , #caja1_seccion3, #caja1_seccion5 {
+    height: 150px;
+    width: 360px ;
+    background-color: #A62103;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    border-radius: 15px;
+    align-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    border: #fff 3px solid;
+}
+
+/*ESTILOS DE CAJA H3 TITULOS*/
+#caja1_seccion2 h3, #caja1_seccion3 h3, #caja1_seccion5 h3{
+    margin: 10px;
+}
+
+/*Contenedor general*/ 
+
+#caja2_seccion2{
+    width: 95%;
+    height: 90%;
+    background-color:#BFA75E;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*CAJAS TAMAÑOS*/
+.caja-cont2 {
+    height: 500px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+/*CAJAS CON IMAGENES*/
+.caja-interna-cont2 {
+    height: 500px ;
+    width:450px ;
+    background-color: #A62103;
+    padding-left: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+/*TAMAÑO DE IMAGENES*/
+.tamImg2{
+    height: 500px;
+}
+
+
+/*TEXTO DESCRIPTIVO*/
+
+.caja-interna-cont2 h4, .caja-interna-cont3 h4 {
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    color: beige;
+}
+
+.caja-interna-cont2  li, h5, .caja-interna-cont3 p{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #fff;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/*----FIN DE ESTILOS DE SECCION 2----*/
+
+
+/*----INICIO DE ESTILOS DE SECCION 3----*/
+#seccion3 {
+    height: 1900px;
+    background-color: #BF6B04;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+/*Contenedor general*/
+
+#caja2_seccion3{
+    width: 95%;
+    height: 90%;
+    background-color:#141A26;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*CAJAS CONTENEDORA FOTO*/
+
+.caja-cont3 {
+    height:800px ;
+    width:500px ;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+/*CAJAS CON Ingedientes*/
+.caja-interna-cont3 {
+    height: 300px ;
+    width:500px ;
+    background-color: #A62103;
+    padding-left: 10px;
+    margin: 0;
+    display: block;
+    border-radius: 10px;
+}
+/*----FIN DE ESTILOS DE SECCION 3----*/
+
+
+/*----INICIO DE Estilos FORMULARIO-----*/
+
+form {
+    padding: 50px;
+    background-color: #bf6b0486;
+    border: 15px outset #BF6B04;
+    text-align: center;
+}
+
+label {
+    background-color: #83A603;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+fieldset {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 10px double #A62103;
+    margin-top: 10vh;
+}
+
+input{
+    text-align: center;
+    padding: 10px;
+}
+
+label, input {
+    width: 50%;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #A62103;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #83A603;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+/*----FIN DE Estilos FORMULARIO-----*/
+
+
+/*----INICIO DE ESTILOS PÁGINA EXTRA----*/
+
+/*----INICIO DE ESTILOS DE SECCION 4----*/
+/*ESTILOS CARROUSEL*/
+
+#carouselExample img{
+    width: 100%;
+    height: 65vh;
+}
+/*----FIN DE ESTILOS DE SECCION 4----*/
+
+
+
+/*----INICIO DE ESTILOS DE SECCION 5----*/
+
+#seccion5{
+    height: 1100px;
+    width: auto;
+    background-color: #83A603;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*CARD DE BEBIDAS Y EXTRAS*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 25vh;
+}
+
+.card-text{
+    text-align: center;
+    height: 80px;
+}
+
+#caja2_seccion5{
+    width: 95%;
+    height: 85%;
+    background-color:#A62103;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+/*----FIN DE ESTILOS DE SECCION 5----*/
+
+
+/*----INICIO DE ESTILOS DE SECCION 6----*/
+#seccion6{
+    height: 600px;
+    width: auto;
+    background-color: #BF6B04;
+    display: flex;
+}
+
+iframe {
+    width: 720px;
+    height: 500px;
+    margin: 50px;
+    border: #fff 5px solid;
+}
+/*----FIN DE ESTILOS DE SECCION 6----*/
+/*---------------FIN DE ESTILOS PÁGINA EXTRA-------------*/
+
+
+
+/* INICIO DE Footer*/
+
+footer {
+    height: 220px;
+    background-color: #141A26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*Logo y marca*/
+#caja1-ft{
+    width: 300px;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(145, 143, 138, 0.7);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+.tamImglogo{
+    width: 50%;
+    padding-left: 5px;
+}
+
+h4{
+    font-size: 25px;
+    color:#fff;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+/*estilos de las cajas 2-3-4*/
+
+#caja2-ft, #caja3-ft, #caja4-ft {
+    width: 270px;
+    border-radius: 10px;
+    background-color: rgba(166, 33, 3, 0.7);
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja2-ft{
+    height: 180px;
+    padding-left: 10px;
+}
+
+.ft-1 a {
+    display: block; 
+    text-decoration: none;
+    color:aliceblue;
+    margin: 3px; 
+}
+
+#caja3-ft{
+    height: 140px;
+}
+
+#caja4-ft{
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+#caja4-ft li img{
+    background-color:rgba(240, 248, 255, 0.9);
+    margin-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding: 5px;
+}
+/* FIN DE Footer*/
+
+
+
+
+/*--------INICIO DE @MEDIA QUERY---------*/
+/*INICIO DE Media de 600px a 1200px*/
+
+@media all and (min-width:600px) and (max-width:1200px) {
+    #contenedor{
+        width: 600px;
+    }
+
+
+/*---------HEADER-----*/
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .logo {
+        height: 130px;
+        width: 50px;
+        margin-left: 10px;
+        padding: 65px;
+        padding-left:100px;
+    }
+
+    .marca {
+        font-size: 13px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin: 0px;
+        margin-top:50px;
+    }
+
+
+    /*TAMAÑO DE IMAGENES*/
+    .tamImg{
+        width: 100%;
+    }
+
+
+    /*Nav*/
+    #botonera {
+        margin-left: 140px;
+        border: 1px;
+        margin-top: 15px;
+        border: 2px solid #fff;
+    }
+
+
+    #botonera ul li a{   
+        padding: 8px;
+        width: 80px;
+        text-align: center;
+        font-size: 13px;
+        margin: 3px;
+        font-weight: lighter;
+    }
+
+
+    #redes {
+        height: 40px ;
+        width: 100px;
+        margin-left: 5%;
+    }
+
+    #redes ul{
+        margin: 2px;
+    }
+
+    #redes ul a {
+        margin-left: 5px;
+    }
+
+    #redes img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /*Secciones*/
+/*---------Seccion 1-----*/   
+#seccion1{
+    height: 700px;
+}
+
+#caja1_seccion1 {
+    width: 100%;
+    background-image: url(../img/premium/TRIPLE\ X.jpg);
+}
+
+    #caja1, #caja3_seccion1{
+        display: none;
+    }
+
+    /* Estilo texto H2 y P */
+    
+    #caja2-1 h2{
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 50px;
+        background-color:rgba(145, 143, 138, 0.5);
+        border-radius: 10px;
+        border: #fff 2px solid;
+        padding: 10px;
+    }
+
+
+    #caja1_seccion1 p{
+        font-size:20px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 30px;
+        border: 1px #fff solid;
+        font-family: sans-serif;
+        padding: 10px;
+    }
+
+    /* Caja que contiene el VIDEO*/
+
+    #caja2-seccion1{
+        display: none;
+    }
+
+
+/*---------Seccion 2-----*/
+    #seccion2 {
+        height:2000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /*Titulo*/
+
+    #caja1_seccion2 , #caja1_seccion3{
+        height: 70px;
+        width: 400px;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+
+    /*Contenedor general*/ 
+
+    #caja2_seccion2{
+        height: 95%;
+        margin-left:10px;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+
+
+
+    /*CAJAS TAMAÑOS*/
+    .caja-cont2 {
+        height: 300px;
+        width: 700px;
+        margin: 5px;
+        padding: 10px;
+    }
+
+
+
+    /*CAJAS CON IMAGENES*/
+    .caja-interna-cont2 {
+        height: 300px ;
+        width:240px ;
+        padding-left: 0px;
+        padding: 5px;
+        display: block;
+        font-size: 15px;
+    }
+
+
+    /*TAMAÑO DE IMAGENES*/
+    .tamImg2{
+        height: 300px;
+    }
+
+
+    /*TEXTO DESCRIPTIVO*/
+    
+    .caja-interna-cont2 h4, .caja-interna-cont3 h4 {
+        font-size: 40px;
+    }
+
+
+    h5{
+        font-size: 13px;
+    }
+
+/*---------Seccion 3-----*/
+    #seccion3 {
+        height: 1900px;
+    }
+
+    /*Contenedor general*/
+
+    #caja2_seccion3{
+        height: 94%;
+        width: 98%;
+        margin-left: 5px;
+    }
+
+    /*CAJAS CONTENEDORA FOTO*/
+
+    .caja-cont3 {
+        height:550px;
+        width:250px;    
+    }
+
+
+    /*CAJAS CON Ingedientes*/
+    .caja-interna-cont3 {
+        height: 300px;
+        width:250px ;
+        padding-left: 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+
+    /*----Estilos 2 pág. FORMULARIO-----*/
+
+    form {
+        padding: 50px;
+        background-color: #bf6b0486;
+        border: 15px outset #BF6B04;
+        text-align: center;
+    }
+
+    label {
+        background-color: #83A603;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    fieldset {
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        border: 10px double #A62103;
+        margin-top: 10vh;
+    }
+
+    input{
+        text-align: center;
+        padding: 10px;
+    }
+
+    label, input {
+        width: 50%;
+        font-size: large;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    input[type="reset"]:hover {
+        background-color: #A62103;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #83A603;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    legend {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    }
+
+
+/*------------Pàgina 3------------*/
+
+    /*----ESTILOS PÁGINA EXTRA----*/
+/*---------Seccion 4-----*/
+    /*ESTILOS CARROUSEL*/
+
+    #carouselExample img{
+        height: 30vh;
+    }
+
+
+/*---------Seccion 5-----*/
+
+    #seccion5{
+        height: auto;
+        width: 100%;
+    }
+
+
+
+    #caja1_seccion5 {
+        height: 90px;        
+    }
+
+    /*CARD DE BEBIDAS Y EXTRAS*/
+
+    .card {
+        align-content: space-around;
+    }
+
+    .card img{
+        width: 100%;
+        height: 20vh;
+    }
+
+    .card-text{
+        height: 40px;
+    }
+
+
+
+    #caja2_seccion5{
+        width: 80%;
+        height: 60%;
+    }
+
+
+
+/*---------Seccion 6-----*/
+    #seccion6{
+        height: 100%;
+        width: auto;
+    }
+
+    iframe {
+        width: 25%;
+        height: auto;
+        margin: 25px;
+    }
+
+
+/*---------INICIO FOOTER-----*/
+
+    footer {
+        height: 650px;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+
+    /*Logo y marca*/
+    #caja1-ft{
+        width: 250px;
+    }
+
+
+    h4{
+        font-size: 20px;
+    }
+
+
+    /*estilos de las cajas 2-3-4*/
+
+    #caja2-ft, #caja3-ft, #caja4-ft {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    #caja2-ft{
+        height: 140px;
+        width: 150px;
+        padding-left: 2px;
+    }
+
+
+    #caja3-ft{
+        height: 110px;
+        width: 200px;
+    }
+
+    #caja4-ft{
+        height: 90px;
+        width: 230px;
+    }
+
+
+    #caja4-ft li img{
+        margin-left: 5px;
+    }
+}
+/*Fin de Media de 600px a 1200px*/
+
+
+
+
+
+/*---INICIO DE @MEDIA QUERY---*/
+/*INICIO DE Media de 1200px a 2010px*/
+
+@media all and (min-width:1200px) and (max-width:2010px) {
+
+
+/*---------Seccion 1-----*/
+
+#caja1_seccion1 {
+    width: 100%;
+    background-image: url(../img/fondo\ 2.jpg);
+    background-position: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #fff;
+}
+
+/* Caja que contiene el VIDEO*/
+
+    #caja2-seccion1{
+        display: none;
+    }
+
+
+
+/* Estilo H3 */
+
+#caja1 h3, #caja3_seccion1 h3 {
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    border: 3px solid #fff;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+
+#caja1_seccion1 {
+    width: 100%;
+}
+
+
+#caja1, #caja3_seccion1{
+    width: 30%;
+}
+
+
+/* Estilo texto H2 y P */
+
+#caja2-1 h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color:rgba(145, 143, 138, 0.5);
+    border-radius: 10px;
+    border: #fff 2px solid;
+    padding: 10px;
+}
+
+#caja2-1 p {
+    background-color:rgba(145, 143, 138, 0.5);
+    border-radius: 10px;
+    border: #fff 2px solid;
+}
+
+
+/*----------Seccion 2------------*/
+
+#seccion2 {
+    height: 100%;
+}
+
+/*Contenedor general*/ 
+
+#caja2_seccion2{
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/*CAJAS TAMAÑOS*/
+.caja-cont2 {
+    height: 500px;
+    width: 700px;
+}
+
+
+/*CAJAS CON IMAGENES*/
+.caja-interna-cont2 {
+    width:280px ;
+}
+
+/*---------Seccion 3-----*/
+#seccion3 {
+    height: 98%;
+    padding-bottom: 10px;
+}
+
+
+/*---------Seccion 5-----*/
+
+    #seccion5{
+        height: auto;
+        width: 100%;
+    }
+
+    .card-text{
+        height: 40px;
+    }
+
+
+
+    #caja2_seccion5{
+        width: 75%;
+        height: 55%;
+    }
+}
+/*FIN DE Media de 1200px a 2010px*/
+
+
+
+/*INICIO DE Media de 1201px a 1600px*/
+
+@media all and (max-width:1600px) and (min-width: 1201px)
+    {
+/*---------HEADER-----*/
+.marca {
+    width: 500px;
+    margin-top: 55px;
+}
+
+/*---------Seccion 1-----*/
+/*Nav*/
+#botonera {
+    margin-left: 400px;
+}
+
+#botonera ul li a{
+    padding: 10px;
+    width: 150px;
+    font-size: 13px;
+}
+
+/*---------Seccion 5-----*/
+    
+#seccion5{
+    height: auto;
+    width: 100%;
+}
+
+.card-text{
+    height: 40px;
+}
+
+#caja2_seccion5{
+    width: 75%;
+    height: 55%;
+}
+
+    }
+
+/*FIN DE Media de 1201px a 1600px*/
+
+
+
+
+
+
+/*INICIO DE Media de 2800px*/
+
+@media all and (min-width:2800px) 
+    {
+
+/*---------Seccion 2-----*/
+#caja2_seccion2{
+    margin-left: 0;
+    margin-top: 25px;
+}     
+
+#caja2_seccion2{
+    width: 100%;
+    height: 90%;
+    margin-left:150px;
+    margin-top: 25px;
+}
+
+/*CAJAS TAMAÑOS*/
+.caja-cont2 {
+    height: 300px;
+    width: 700px;
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+/*CAJAS CON IMAGENES*/
+.caja-interna-cont2 {
+    height: 400px ;
+    width:700px ;
+}
+
+
+/*TAMAÑO DE IMAGENES*/
+.tamImg2{
+    height: 400px;
+}
+
+
+/*---------Seccion 5-----*/
+
+#seccion5{
+    height: auto;
+    width: 100%;
+}
+
+.card-text{
+    height: 40px;
+}
+
+#caja2_seccion5{
+    width: 75%;
+    height: 55%;
+}
+
+
+/*---------Seccion 6-----*/
+
+iframe {
+    width: 100%;
+    height: auto;
+    margin: 25px;
+}
+}
+/*FIN DE Media de 2800px*/
